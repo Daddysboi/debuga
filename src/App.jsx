@@ -1,14 +1,14 @@
-import React from "react";
-
-// Pages
-import Homepage from "./pages/Homepage.jsx";
-import Login from "./pages/Login.jsx";
-import SignUp from "./pages/SignUp.jsx";
-import Error404 from "./pages/Error404.jsx";
-import RootLayout from "./layout/RootLayout.jsx";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
-  return <Homepage />;
+  return (
+    <div>
+      <Header />
+      <div>body</div>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
